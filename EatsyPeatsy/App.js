@@ -10,7 +10,7 @@ import RegisterPage from './pages/RegisterPage';
 import HomePage from './pages/HomePage';
 
 const Stack = createStackNavigator();
-const Tab = createBottomTabNavigator(bottomNavigatorConfigs);
+const Tab = createBottomTabNavigator();
 
 // Bottom Tab Navigator
 const HomeTabs = () => {
